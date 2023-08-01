@@ -1,0 +1,15 @@
+.nav-logo {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: flex-end;
+}

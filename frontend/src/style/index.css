@@ -1,0 +1,64 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.index {
+    background: rgb(31,143,46);
+    background: linear-gradient(45deg, rgba(31,143,46,1) 0%, rgba(25,157,44,1) 100%);
+    height: 100vh;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1;
+    color: rgb(44, 43, 43);
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.kemenag-text {
+    font-size: 1.5rem;
+    line-height: 1;
+    color: rgb(44, 43, 43);
+    text-align: center;
+}
+
+.kemenag-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+}
+
+Form {
+    color: #ffc107;
+}
+
+.images {
+    width: 200px;
+}
+
+.kmng-img {
+    width: 120px;
+}
+
+@media (max-width: 767px) {
+    .kmng-img {
+        width: 70px;
+    }
+    .images {
+        width: 80px;
+    }
+    .title {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .kemenag-text {
+        font-size: 14px;
+    }
+    Form {
+        font-size: 14px;
+    }
+}
